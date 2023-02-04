@@ -1,0 +1,171 @@
+
+/* Navbar*/
+.nav-main { background-color: #fff;padding: 1px 0;box-shadow: 0 0 5px #ccc;position: sticky;top: 0; z-index: 1;}
+.navbar,a{ color: #242A2B; margin: 0px 15px; font-weight: 600;}
+.navbar .btncolor{ background-image: linear-gradient(to right, #2feee9, #007176); background-color: #007176; color: #fff; border-radius: 20px; padding: 0px 33px;     border: none;}
+/* Survey Earn */
+.survey-main{ margin-top: 5%;}
+.survey-main .heading{ font-size: 2.0rem; }
+.survey-main .para{  font-size: 18px; color: #6A7071;}
+.survey-main .btncolor{  background-image: linear-gradient(to right, #2feee9, #007176); color: #fff; border-radius: 20px; padding: 6px 33px; align-items: center;     border: none;}
+.btncolor:hover { background: #007176;}
+.survey-main .survey-position{ position: relative; z-index: 9999;}
+.survey-main .survey-img{ margin-top: -275px;}
+/* discover part  */
+.discover-main{background: url(./image/BG1.png) no-repeat; background-size: contain; margin-top: 8%; }
+.discover-main .heading{   font-weight: 700;}
+.discover-main .para{font-size: 16px; font-weight: 600;}
+.imag-background { background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6F0F0 43%, #FFFFFF 100%) 0% 0% no-repeat padding-box;}
+/* tursted part  */
+.tursted-main { margin-top: 8%;}
+.tursted-main .heading{ color: #242A2B; font-size: 36px; margin-top: 26px;}
+.tursted-main .heading1{ color: #007176; font-size: 48px;}
+.tursted-main .para { color: #242A2B; font-size: 24px;}
+/* important-opinion  */
+.imp-opinion { margin-top: 8%;}
+.imp-opinion .card-body{ font-size: 24px; text-align: center;}
+.imp-opinion .imge-card{ height: 212px;  box-shadow: 5px 5px -1px #ccc; border-radius: 12px;}
+.inspiration-main{ margin-top: 8%;}
+.inspiration-main .heading{ color: #007176; font-size: 24px;}
+.inspiration-main .heading1{ color: #242A2B; font-size: 48px;}
+.inspiration-main .heading2{ color: #242A2B; font-size: 18px; font-weight: 700;}
+/* our-features  */
+.our-features{ background: url(./image/BG2.png) no-repeat;     background-size: contain; }
+.our-features .heading{ font-size: 48px; color:#242A2B; margin-top: 8%;}
+.our-features .para{ font-size: 24px; color:#242A2B;}
+.our-features ,i { font-size: 8px; color: #00AAB1;}
+.our-features .para1{ font-size: 18px; color:#242A2B;}
+.contact-us .btncolor { background-image: linear-gradient(to right, #2feee9, #007176); width: 308px;  border-radius: 26px; background-color: #007176; color: #fff;     border: none;}
+.btncolor:hover { background: #007176;}
+/* contact-us  */
+.contact-us { background: url(./image/BG1.png); background-size: contain;}
+/* footer part  */
+.footer { background-color: #fff; padding: 40px 0 15px;color: #007176;;}
+.footer .footer-main {  margin-bottom: 39px; }
+/* .footer .section-head {font-weight: 600;font-size: 16px;margin-top: 64px;} */
+.footer .section-head1 {font-weight: 700; font-size: 18px;margin-top: 78px;  color: #007176;     margin-left: 14px;}
+.footer .footer-link {font-weight: 500;font-size: 15px;display: block; color: #007176;; margin-bottom: 8px;}
+.footer .social-icon { font-size: 28px; color: #007176; padding: 14px 0px;   }
+.footer .social-icon:hover { color:  #0077b5;}
+.footer .social-icon1:hover { color:  #0077b5;}
+.footer .add-icon {height: 55px; position: absolute;left: 50%;top: 0px;transform: translate(-50% , -50%);background-color: #fff;padding: 10px;border-radius: 50%;}
+.footer .copyright {font-weight: 600;}
+
+/* ------ Media ------- */
+/* #Device = Desktops, ##Screen = 1281px to higher resolution desktops  */
+@media (min-width:1281px){
+
+}
+/* #Device = Laptops, Desktops, ##Screen = B/w 1025px to 1280px  */
+@media (min-width:1025px) and (max-width:1280px){
+
+}
+ /* #Device = Tablets, Ipads (portrait), ##Screen = B/w 768px to 1024px  */
+@media (min-width:768px) and (max-width:1024px){
+
+}
+/* #Device = Tablets, Ipads (landscape), ##Screen = B/w 768px to 1024px  */
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+
+}
+/* #Device = Low Resolution Tablets, Mobiles (Landscape), ##Screen = B/w 481px to 767px  */
+@media (min-width:481px) and (max-width:767px){
+
+}
+/* #Device = Most of the Smartphones Mobiles (Portrait), ##Screen = B/w 320px to 479px  */
+@media (min-width:320px) and (max-width:480px){
+    .survey-main .heading { font-size: 20px;} 
+    .survey-main .para { font-size: 14px; color: #6A7071; }
+    .survey-main .survey-img { margin-top: -47px; }
+    .survey-main .btncolor { background-color: #007176; color: #fff; border-radius: 20px; padding: 0px 22px; align-items: center;}
+    .discover-main .heading { font-weight: 700; font-size: 15px;}
+    .discover-main .heading1 {  font-size: 20px; font-weight: 700;}
+    .discover-main .para {font-size: 14px; }
+    .tursted-main .heading { color: #242A2B; font-size: 20px;}
+    .tursted-main .heading1 { color: #007176; font-size: 20px; }
+    .tursted-main .para { color: #242A2B; font-size: 14px;}
+    .imp-opinion .heading{font-size: 20px;}
+    .imp-opinion .para { font-size: 14px;}
+    .inspiration-main .heading { color: #007176; font-size: 18px; }
+    .inspiration-main .heading1 { color: #242A2B; font-size: 20px; }
+    .inspiration-main .heading2 { color: #242A2B; font-size: 15px; font-weight: 700;}
+    .inspiration-main .para{ font-size: 14px;}
+    .our-features .heading { font-size: 20px; color: #242A2B; }
+    .our-features .para, .our-features .para1 { font-size: 14px; color: #242A2B;}
+    .our-global .heading { font-size: 20px;}
+    .contact-us .heading{ font-size: 20px;}
+ }
+
+ /* .image {
+    
+    
+        position:relative;
+        -webkit-animation:glide 2s ease-in-out alternate infinite;
+    
+ }
+     @-webkit-keyframes glide {
+        from {
+           left:0px;
+           top:0px;
+        }
+        
+        to {
+           left:0px;
+           top:20px;
+        }
+    } */
+
+/* .image {
+        bottom:15%;
+        position:absolute;
+        -webkit-animation:linear infinite;
+        -webkit-animation-name:run;
+        -webkit-animation-duration:8s;
+     }
+     
+     @-webkit-keyframes run  {
+        0% {
+           left:0;
+           -webkit-transform:rotateY(0deg);
+        }
+        
+        50% {
+           left:82%;
+           -webkit-transform:rotateY(0deg);
+        }
+        
+        51% {
+           -webkit-transform:rotateY(180deg);
+        }
+        
+        99% {
+           left:0;
+           -webkit-transform:rotateY(180deg);
+        }
+        
+        100% {
+           left:0;
+           -webkit-transform:rotateY(0deg);
+        }
+     
+     } */
+
+/* .image {
+    
+        margin: 24px;
+        width: 50px;
+        height: 50px;
+        animation: zoom-in-zoom-out 1s ease infinite;
+      }
+      
+      @keyframes zoom-in-zoom-out {
+        0% {
+          transform: scale(1, 1);
+        }
+        50% {
+          transform: scale(1.5, 1.5);
+        }
+        100% {
+          transform: scale(1, 1);
+        }
+      } */
